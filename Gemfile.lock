@@ -373,7 +373,7 @@ GEM
       jsonapi-resources
       pundit
       rails (>= 4.2.1, < 5.1)
-    rack (1.6.8)
+    rack (1.6.12)
     rack-attack (5.0.1)
       rack
     rack-cors (1.0.2)

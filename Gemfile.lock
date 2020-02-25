@@ -296,7 +296,7 @@ GEM
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
     mini_mime (1.0.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.3)
     moneta (1.0.0)
     msgpack (1.2.0)
@@ -309,8 +309,8 @@ GEM
     nested_form (0.3.2)
     net-http-digest_auth (1.4.1)
     net-http-persistent (2.9.4)
-    nokogiri (1.8.1)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     nokogumbo (1.4.13)
       nokogiri
     notiffany (0.1.1)
@@ -620,7 +620,7 @@ DEPENDENCIES
   librato-rails
   lograge
   mechanize
-  nokogiri (~> 1.8.1)
+  nokogiri (~> 1.10.8)
   oauth2
   oj
   oj_mimic_json

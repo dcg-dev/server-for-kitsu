@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/GetStream/stream-rails.git
+  remote: https://github.com/GetStream/stream-rails.git
   revision: 6e9a74d08516e3cc820c8dc866de659193bd56bc
   branch: feature/subreference-enrichment
   specs:
@@ -10,18 +10,18 @@ GIT
       stream-ruby (~> 2.4)
 
 GIT
-  remote: git://github.com/nuckchorris/rack-timeout.git
-  revision: 0e01a118a02c6843643cface4c10d10f7f002582
-  specs:
-    rack-timeout (0.4.2)
-
-GIT
   remote: https://github.com/doorkeeper-gem/doorkeeper-grants_assertion
   revision: 8ca697f2deab7f99c72b2f9ed09f96c7dcf1b40f
   specs:
     doorkeeper-grants_assertion (0.1.0)
       doorkeeper (>= 4.0)
       railties (>= 3.1)
+
+GIT
+  remote: https://github.com/nuckchorris/rack-timeout.git
+  revision: 0e01a118a02c6843643cface4c10d10f7f002582
+  specs:
+    rack-timeout (0.4.2)
 
 GEM
   remote: https://rubygems.org/
@@ -294,7 +294,9 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mimemagic (0.3.2)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
@@ -568,7 +570,7 @@ GEM
       simple_oauth (~> 0.3.1)
     typhoeus (1.3.0)
       ethon (>= 0.9.0)
-    tzinfo (1.2.4)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
